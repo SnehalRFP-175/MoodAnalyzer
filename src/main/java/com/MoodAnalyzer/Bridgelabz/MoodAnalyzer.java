@@ -4,7 +4,6 @@ public class MoodAnalyzer
 {
     private String message;
 
-
     public String analyzeMood(String message)
     {
         if (message.contains("SAD"))
