@@ -9,8 +9,8 @@ public class MoodAnalyzerTest
     @Test
     protected void testMoodAnalysis()
     {
-        MoodAnalyzer moodAnalyzer = new MoodAnalyzer("I am in a Sad Mood");
+        MoodAnalyzer moodAnalyzer = new MoodAnalyzer("I am in a Happy Mood");
         String actualResult = moodAnalyzer.analyzeMood();
-        Assertions.assertEquals("SAD", actualResult);
+        Assertions.assertEquals("HAPPY", actualResult);
     }
 }
